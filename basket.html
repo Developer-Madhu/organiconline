@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basket - WorldPea</title>
+    <link rel="stylesheet" href="basket.css">
+    <link rel="stylesheet" href="worldpea.css">
+    <link rel="stylesheet" href="list.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>World Peas</h1>
+            <div class="ulist">
+                <ul>
+                    <li>Newstand</li>
+                    <li>Who are we</li>
+                    <li>My Profile</li>
+
+                    <!-- <button id="cart-button"><a href="basket.html">Basket (3)</a></button> -->
+                </ul>
+                <button class="menu" onclick="side()" id="menu"></button>
+            </div>
+            <div class="hover-menu" id="hover-menu" style="display: none;">
+                <ul>
+                    <li>Shop</li>
+                    <hr>
+                    <li>Newstand</li>
+                    <hr>
+                    <li>Who are we</li>
+                    <hr>
+                    <li>My Profile</li>
+                    <hr>
+                    <!-- <button id="cart-button1"><a href="basket.html">Basket (3)</a></button> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <!-- <main class="bask"> -->
+    <div class="head">
+        <h1>Basket</h1>
+        <p>3 items</p>
+    </div>
+    <br>
+    <hr><br>
+
+    <main class="veg-cont">
+
+        <main class="containers">
+            <div class="timage">
+                <img src="tomato.jpeg" alt="">
+            </div>
+            <div class="info">
+                <h2>Tomatoes</h2>
+                <br>
+                <h4>Price</h4>
+                <br>
+                <h4>Quantity</h4>
+                <br>
+            </div>
+            <div class="rates">
+                <p>50 Rs</p>
+                <br>
+                <p>1 Kg</p>
+            </div>
+        </main>
+        <br>
+        <main class="containers">
+            <div class="timage">
+                <img src="orange.jpeg" alt="">
+            </div>
+            <div class="info">
+                <h2>Oranges</h2>
+                <br>
+                <h4>Price</h4>
+                <br>
+                <h4>Quantity</h4>
+                <br>
+            </div>
+            <div class="rates">
+                <p>50 Rs</p>
+                <br>
+                <p>1 Kg</p>
+            </div>
+        </main>
+        <br>
+        <main class="summary">
+            <div class="order">
+                <h1 style="text-align: center;">Order Summary</h1>
+            </div>
+            <hr style="width: 95%; margin: 0px auto;"><br><br>
+            <div class="details">
+                <div class="tables">
+                    <table>
+                        <th>Subtotal</th>
+                    </table>
+                    <br>
+                    <table>
+                        <th>Shipping charges</th>
+                    </table>
+                    <br>
+                    <table>
+                        <th>Total</th>
+                    </table>
+                </div>
+                <br>
+                <div class="table2">
+                    <table>
+                        <th>100</th>
+                    </table>
+                    <br>
+                    <table>
+                        <th> 20</th>
+                    </table>
+                    <br>
+                    <table>
+                        <th>120</th>
+                    </table>
+                </div>
+                <br>
+            </div>
+            <br><br>
+
+            <button id="btn" style="font-family: 'Hedvig Letters Sans', sans-serif;"><b>Continue</b></button>
+        </main>
+        <br>
+    </main>
+    <script src="worldpea.js"></script>
+
+</body>
+
+</html>

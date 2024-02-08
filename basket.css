@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html , body {
+    width: 90%;
+    height: 100%;
+    margin: 0px auto ;
+}
+
+.navbar {
+    background-color: white;
+    color: #426B1F;
+    padding: 0.8em;
+    /* width: 90%; */
+}
+
+.navbar h1 {
+    display: inline;
+    font-family: 'Kalnia', serif;
+}
+
+.ulist {
+    display: inline;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.ulist ul {
+    display: flex;
+    /* display: inline; */
+    float: right;
+    list-style-type: none;
+    align-items: center;
+    width: 43%;
+    justify-content: space-between;
+}
+
+#cart-button {
+    background-color: green;
+    color: white;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#cart-button>a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    display: flex;
+}
+
+.head h1 {
+    font-size: 70px;
+    display: inline;
+}
+
+.head p {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.two {
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-around;
+
+}
+.veg-cont{
+    height: 100%;
+
+}
+.containers{
+    background-color: #FAFAF5;
+    height: 30%;
+    border-radius: 15px;
+    border: 1px solid #E6E6E6;
+    width: 99%;
+    display: flex; 
+    flex-direction: row; 
+}
+.timage{
+    background-color: blue;
+    height: 100%;
+    width: 30%;
+}
+.timage > img{
+    width: 100%;
+    height: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 2.5%;
+    font-size: 1.5vw;
+}
+.rates{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-size: 1vw;
+    justify-content: center;
+}
+.info > h4{
+    font-size: 1em;
+}
+.summary{
+    background-color: #FAFAF5;
+    height: 50%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.order, .details{
+    margin: 2.5%;
+}
+#btn{
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 10%;
+    /* font-size: 25px; */
+    display: flex;
+    background-color: green;
+    color: white;
+    border-radius: 11.5px;
+    justify-content: center;
+    margin: 0px auto;
+}
+.details{
+    display: flex;
+    width: 50%;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    margin: 0px auto;
+}
+.details > .tables{
+    width: 50%;
+}
+.table2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+}
